@@ -1,0 +1,41 @@
+:root {
+  --chalkboard: #223027;
+  --chalkboard-light: #2e4033;
+  --brick: #a8432e;
+  --brick-dark: #8a3524;
+  --brass: #b8863b;
+  --paper: #f2efe6;
+  --paper-dim: #e8e3d5;
+  --ink: #24211c;
+  --ink-soft: #55503f;
+  --chalk-white: #fbfaf6;
+  --line: #d8d1bd;
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius: 3px;
+  --max-width: 1160px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.wrap { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn-primary { background: var(--brick); color: var(--chalk-white); border: 1.5px solid var(--brick); }
+.btn-primary:hover { background: var(--brick-dark); }
+
+/* ...component styles for nav, hero, cards, timeline,
+   accordion, forms, footer, and responsive breakpoints
+   continue in the full file — see styles.css above */
