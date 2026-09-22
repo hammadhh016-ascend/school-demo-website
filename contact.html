@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Riverstone Day School</title>
+<meta name="description" content="Contact Riverstone Day School, get directions, or schedule a tour.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="banner">
+  <div class="wrap">
+    <span>Open House — Saturday, October 17, 9:00–11:30 AM. <a href="admissions.html">Reserve a spot</a></span>
+    <button type="button" aria-label="Dismiss announcement">&times;</button>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">R</span>
+      Riverstone Day School
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="student-life.html">Student Life</a></li>
+        <li><a href="news.html">News &amp; Events</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-outline" href="admissions.html">Apply Now</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="page-header">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h1>Get in touch.</h1>
+      <p class="lede">Questions about admissions, a tour request, or anything else — reach us directly or send a message below.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Visit</h3>
+          <p>240 Millbrook Lane<br>Fairview, ST 03921</p>
+        </div>
+        <div class="card">
+          <h3>Call or email</h3>
+          <p>(555) 019-2244<br>info@riverstoneday.example</p>
+        </div>
+        <div class="card">
+          <h3>Office hours</h3>
+          <p>Monday–Friday<br>8:00 AM – 4:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="grid grid-2" style="align-items:flex-start;">
+        <div>
+          <h2>Send a message</h2>
+          <p style="margin-bottom:1.5rem;">This form is a front-end demo — connect it to your email service or form backend to make it live.</p>
+          <form data-demo-form novalidate>
+            <div class="form-grid">
+              <div>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="full">
+                <label for="topic">I'm interested in</label>
+                <select id="topic" name="topic">
+                  <option>Scheduling a tour</option>
+                  <option>Admissions &amp; applications</option>
+                  <option>Tuition &amp; financial aid</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+              <div class="full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <div class="full">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+                <p class="form-confirmation" hidden style="margin-top:0.9rem; color:var(--brick); font-weight:600;">Thanks — the office will follow up within one business day.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h2>Directions</h2>
+          <p>From Route 9, take Exit 14 toward Fairview Center. Millbrook Lane is the second right past the library; visitor parking is at the front of campus, near the main entrance.</p>
+          <div style="border:1px solid var(--line); border-radius:var(--radius); height:260px; background:var(--paper-dim); display:grid; place-items:center; color:var(--ink-soft); margin-top:1rem;">
+            Map placeholder — embed your map provider here
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Department contacts</h2>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        <div class="card person-card">
+          <div class="person-photo">AR</div>
+          <div>
+            <h4>Admissions</h4>
+            <div class="person-role">Amara Reyes</div>
+            <p>admissions@riverstoneday.example</p>
+          </div>
+        </div>
+        <div class="card person-card">
+          <div class="person-photo">DK</div>
+          <div>
+            <h4>Academics</h4>
+            <div class="person-role">David Kessler</div>
+            <p>academics@riverstoneday.example</p>
+          </div>
+        </div>
+        <div class="card person-card">
+          <div class="person-photo">TO</div>
+          <div>
+            <h4>Student Life</h4>
+            <div class="person-role">Thomas Ogilvie</div>
+            <p>studentlife@riverstoneday.example</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Riverstone Day School</h4>
+        <p style="max-width:32ch; font-size:0.92rem;">240 Millbrook Lane, Fairview, ST 03921<br>An independent K–8 school founded in 1987.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="student-life.html">Student Life</a></li>
+          <li><a href="news.html">News &amp; Events</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Admissions</h4>
+        <ul>
+          <li><a href="admissions.html">How to Apply</a></li>
+          <li><a href="admissions.html#tuition">Tuition &amp; Aid</a></li>
+          <li><a href="admissions.html#faq">FAQ</a></li>
+          <li><a href="contact.html">Contact Admissions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>(555) 019-2244</li>
+          <li>info@riverstoneday.example</li>
+          <li><a href="contact.html">Directions &amp; hours</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Riverstone Day School. All rights reserved.</span>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="YouTube">yt</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
